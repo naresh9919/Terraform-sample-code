@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = var.secret_key
 }
 
-resource "aws_instance" "Jenkins-instance" {
+resource "aws_instance" "jenkins-instance" {
   ami           = var.os-name
   instance_type = var.instance-type
   key_name = var.key-pair
