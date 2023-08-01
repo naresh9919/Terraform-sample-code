@@ -13,7 +13,7 @@ variable "os-name" {
 }
 
 variable "key-pair" {
-    default = "ubuntukey"
+    default = "terraform"
 }
 
 variable "instance-type" {
