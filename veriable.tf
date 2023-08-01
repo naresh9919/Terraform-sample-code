@@ -9,7 +9,7 @@ variable "location" {
 }
 
 variable "os-name" {
-    default = "ami-0f5ee92e2d63afc18"
+    default = "ami-08e5424edfe926b43"
 }
 
 variable "key-pair" {
